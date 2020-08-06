@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hello/HomePage.dart';
+import 'RouterDef.dart';
 
 void main() => runApp(new MyApp());
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
+      routes: routers,
     );
   }
 }

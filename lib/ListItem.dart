@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomeListItem extends StatefulWidget {
+class ListItem extends StatefulWidget {
   String text;
 
   @override
-  _HomeListItemState createState() => _HomeListItemState();
+  _ListItemState createState() => _ListItemState();
 }
 
-class _HomeListItemState extends State<HomeListItem> {
+class _ListItemState extends State<ListItem> {
   void initState() {
     // TODO: implement initState
     super.initState();
